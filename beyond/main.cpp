@@ -10,6 +10,16 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    //std::cout << "Hello, World!\n";
+    int a[3]={1,2,3};
+    printf("%d  %d  %d \n",a[0],a[1],a[2]);
+    int b[5];
+    int i;
+    for(i;i<100;i++)
+    {
+        b[i]=i;
+    }
+    printf("%d  %d  %d \n",a[0],a[1],a[2]);
+    printf("%x    %x \n",a,b);
     return 0;
 }

@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
     printf("%d  %d  %d \n",a[0],a[1],a[2]);
     int b[5];
     int i;
-    for(i=0;i<100;i++)
+    for(i;i<100;i++)
     {
         b[i]=i;
     }
